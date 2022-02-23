@@ -2,5 +2,5 @@
 
 Bank Login and Dashboardlog in info:
 
-himi@gmail.com
-himi.123
+usermail: himi@gmail.com
+password: himi.123
