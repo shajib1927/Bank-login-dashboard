@@ -1,0 +1,53 @@
+
+@media (max-width: 640px) {
+    
+    .mbl-txt {
+        font-size: 1.5rem;
+    }
+
+    .mbl-lrg-h {
+        font-size: 1.25rem;
+    }
+    .mbl-h3 {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+    .btn-x {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .inp-dad {
+        padding: 20px 0px 10px 0px;
+    }
+    
+
+    .usr_nme {
+        font-size: 2.25rem;
+        line-height: 1px;
+        color: rgba(8, 1, 6, 0.945);
+    }
+
+    .mbl-brd {
+        padding: 10px 4px;
+        margin: 0px;
+    }
+
+    .mbl-rsv, .mbl-rsv-2 {
+        width: 98%;
+        margin: 0px auto;
+    }
+
+    .mbl-brd h3, .mbl span {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .mbl-rsv-2 {
+         margin-top: 20px;
+    }
+}

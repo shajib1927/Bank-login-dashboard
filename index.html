@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himi's Bank</title>
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-5xl py-14 mbl-lrg-h">Welcome to <span class="font-semibold text-indigo-600 mbl-txt">Himi's Bank</span></h1>
+    </header>
+    <main>
+        <section class="w-3/5 bg-emerald-200 mx-auto rounded">
+            <h3 class="text-center text-3xl py-8 font-medium text-black-300 mbl-h3">Please Log in</h3>
+            <div class="pb-10">
+                <input type="text" id="usermail" class="block w-4/5 border-2 rounded border-white-400 p-1 mx-auto mb-4" placeholder="Enter Email">
+                
+                <input type="password" class="block w-4/5 border-2 rounded border-white-400 p-1 mx-auto" id="userpass" placeholder="Enter password">
+                
+                <button class="block bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mx-auto mt-8 btn" id = "login-submit">
+                    Log in
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="./login.js"></script>
+</body>
+</html>

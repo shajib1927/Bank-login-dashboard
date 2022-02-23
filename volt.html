@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Volt</title>
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl py-14 text-center usr_nme" id="">Himi<span class="font-semibold text-indigo-600 mbl-txt">'s Bank</span></h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="grid grid-cols-3 mbl-rsv gap-4 w-2/3 mx-auto text-white">
+                <div class="bg-blue-400 mbl-brd p-8 rounded">
+                    <h3 class="text-3xl ">Deposit</h3>
+                    <h3 class="text-3xl mbl-h3 ">$<span class="text-3xl text-white " id="calculated-deposit">00</span></h3>
+                </div>
+                <div class="bg-red-400 p-8 mbl-brd rounded">
+                    <h3 class="text-3xl ">Withdraw</h3>
+                    <h3 class="text-3xl">$<span class="text-3xl text-white" id="calculated-withdraw">00</span></h3>
+                </div>
+                <div class="bg-yellow-400 mbl-brd p-8 rounded">
+                    <h3 class="text-3xl">Balance</h3>
+                    <h3 class="text-3xl">$<span class="text-3xl text-white" id="calculated-balance">15000</span></h3>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-2 gap-4 mbl-rsv-2 w-2/3 mx-auto mt-5 text-white">
+                <div class="bg-green-300 py-8 rounded inp-dad">
+                    
+                    <input type="text" class="block border-2 rounded border-white-400 text-black p-1 w-4/5 mx-auto" id="add-box" placeholder="Enter amount">
+                
+                    <button class="block bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mt-4 mx-auto btn-x" id = "add-money-btn">
+                        Add Money
+                    </button>
+                </div>
+                <div class="bg-cyan-200 inp-dad p-8 rounded">
+                    <input type="text" class="block border-2 rounded border-white-400 p-1 w-4/5 mx-auto text-black mbl-inp" id="out-box" placeholder="Enter amount">
+                
+                    <button class="block bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mt-4 mx-auto btn-x" id = "cash-out-btn">
+                        Cash out
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./bank.js"></script>
+</body>
+</html>
